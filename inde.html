@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>Clínica Saúde Amor</title>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Sistema Clínico</h1>
+    </header>
+
+    <form id="myForm" method="post">
+        <h2 class="title-info1">Cadastro de Pacientes</h2>
+        <h2 class="title-info">Preencha os dados com atenção</h2>
+        <div class="form-row">
+            <div class="form-column">
+                <label for="nome">Nome<span class="required">*</span></label>
+                <input type="text" id="nome" name="nome">
+            </div>
+            <div class="form-column">
+                <label for="sobrenome">Sobre Nome<span class="required">*</span></label>
+                <input type="text" id="sobrenome" name="sobrenome">
+            </div>
+            <div class="form-column">
+                <label for="telefone">Telefone<span class="required">*</span></label>
+                <input type="text" id="telefone" name="telefone">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-column">
+                <label for="rg">RG<span class="required">*</span></label>
+                <input type="text" id="rg" name="rg">
+            </div> 
+            <div class="form-column">
+                <label for="cpf">CPF<span class="required">*</span></label>
+                <input type="text" id="cpf" name="cpf">
+            </div>
+            <div class="form-column">
+                <label for="endereco">Endereço<span class="required">*</span></label>
+                <input type="text" id="endereco" name="endereco">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-column">
+                <label for="email">E-mail<span class="required">*</span></label>
+                <input type="text" id="email" name="email">
+            </div>  
+        </div>
+        <!-- Repita a estrutura acima para mais linhas de campos, se necessário -->
+        <div class="buttons">
+            <button onclick="" class="button1" type="submit">Salvar</button>
+            <button class="button2" type="reset"> Limpar</button>
+        </div>
+    </form>
+<script src="./main.js"></script>
+</body>
+</html>

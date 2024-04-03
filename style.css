@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+
+}
+body{
+    background-color: white;
+}
+.cabecalho{
+    background-color: #2f6cc0;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+}
+.cabecalho h1{
+    color: white;
+    line-height: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 39px;
+}
+.title-info1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -12px;
+    margin-bottom: 15px;
+    color: #8E369E;
+    font-size: 32px;
+
+}
+.title-info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 35px;
+    color: #8E369E;
+    font-size: 25px;
+}
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-column {
+    flex: 1; /* Faz cada coluna ocupar um terço do espaço disponível */
+    margin-right: 10px; /* Espaçamento entre as colunas */
+}
+
+.form-column:last-child {
+    margin-right: 0; /* Remove a margem direita da última coluna */
+}
+
+form {
+    max-width: 700px; /* Largura máxima do formulário */
+    margin: 50px auto;
+    padding: 45px;
+    border: solid 1px #7A7A7A;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #7A7A7A;
+    margin-bottom: 10px;
+}
+input{
+    background-color: #EEEEEE;
+    padding: 9px;
+    border-radius: 8px;
+    border: none;
+    width: 180px;
+}
+
+/* Estilo para as linhas do formulário */
+
+
+@media screen and (max-width: 600px) {
+    .cabecalho h1{
+        font-size: 30px;
+    }
+    .title-info1{
+        font-size: 25px;
+    }
+    .title-info{
+        font-size: 19px;
+    }
+    #myForm{
+        
+        margin: 35px 5px 30px 5px;
+    }
+    .form-row {
+        flex-wrap: wrap; /* Permite que os elementos da linha sejam envoltos */
+    }
+
+    .form-column {
+        flex-basis: calc(50% - 5px); /* Define a base flexível para 50% do espaço disponível */
+        margin-right: 10px; /* Adiciona espaçamento entre as colunas */
+        margin-bottom: 10px; /* Adiciona espaçamento entre os campos */
+    }
+
+    .form-column:nth-child(odd) {
+        margin-right: 10px; /* Adiciona espaçamento entre as colunas, exceto para a última coluna */
+    }
+
+    .form-column:last-child {
+        margin-right: 0; /* Remove a margem direita da última coluna */
+    }
+    [type="text"]{
+        width: 270px;
+    }
+}
+
+
+/* Estilização dos buttons */
+.buttons{
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+.button1{
+    padding: 8px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: #2f6cc0;
+    width: 70px;
+    color: white;
+  
+
+}
+.button2{
+    padding: 8px;
+    border-radius: 8px;
+    border-color: white;
+    background-color: #2f6cc0;
+    width: 70px;
+    color: white;
+    float: right;
+} 
+
+.required{
+    color: rgb(226, 55, 55);
+}

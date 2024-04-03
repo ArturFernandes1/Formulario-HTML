@@ -1,0 +1,16 @@
+//Programa de Cadastramento de Clientes em Hotel
+
+/* Dados que o cliente precisa inserir
+Nome completo
+CPF
+RG
+Telefone
+Email (OPT)
+Endereço 
+
+Botao Salvar e botao de limpar 
+Mensagem de cadastro Realizado com Sucesso
+
+O programa deve conter um Banco de dados para armazena todos em clientes cadastrados no hotel, 
+E ser capaz de fazer buscas de clientes pelo nome ou pelo ID
+*/
